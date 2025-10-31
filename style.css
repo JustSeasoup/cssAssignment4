@@ -1,8 +1,7 @@
-.unveiler:hover {
-    color: darkmagenta;
-    display: none;
+img.hiddenImage {
+    visibility: hidden;
 }
 
-.hiddenImage{
-    display: block
+div.unveiler:hover > img {
+    visibility: visible;
 }
